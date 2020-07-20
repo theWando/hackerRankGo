@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="53ee4971-dd84-451c-bb73-8732e3c4cbf1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go Application" />
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="$PROJECT_DIR$/../../../../go1.14.2" />
+  <component name="ProjectId" id="1ewzAQsSa8xlajuOYkCcX7ks7dm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go Application" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/repeatedString" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Test.Test_repeatedString in github.com/theWando/hackerRank/repeatedString">
+    <configuration name="go build github.com/theWando/hackerRank/repeatedString" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="hackerRank" />
+      <working_directory value="$PROJECT_DIR$" />
+      <envs>
+        <env name="OUTPUT_PATH" value="$PROJECT_DIR$/repeatedString/repeated-string-testcases/input/input00.txt" />
+      </envs>
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/repeatedString/main.go" />
+      <package value="github.com/theWando/hackerRank/repeatedString" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="hackerRank" />
+      <working_directory value="$PROJECT_DIR$/repeatedString" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/repeatedString/main.go" />
+      <package value="github.com/theWando/hackerRank" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_repeatedString in github.com/theWando/hackerRank/repeatedString" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="hackerRank" />
+      <working_directory value="$PROJECT_DIR$/repeatedString" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/theWando/hackerRank/repeatedString" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^Test_repeatedString$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.Test_repeatedString in github.com/theWando/hackerRank/repeatedString" />
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build github.com/theWando/hackerRank/repeatedString" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2440" y="392" key="#Go_Modules" timestamp="1595249357278">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2440" y="392" key="#Go_Modules/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1595249357278" />
+    <state x="2104" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595249268427">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2104" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1595249268427" />
+    <state x="2403" y="262" key="#xdebugger.evaluate" timestamp="1595257151505">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2403" y="262" key="#xdebugger.evaluate/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1595257151505" />
+    <state x="2505" y="283" key="EnvironmentVariablesDialog" timestamp="1595248857114">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2505" y="283" key="EnvironmentVariablesDialog/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1595248857114" />
+    <state width="1878" height="348" key="GridCell.Tab.0.bottom" timestamp="1595256973412">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="348" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1595256973412" />
+    <state width="1878" height="348" key="GridCell.Tab.0.center" timestamp="1595256973411">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="348" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1595256973411" />
+    <state width="1878" height="348" key="GridCell.Tab.0.left" timestamp="1595256973410">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="348" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1595256973410" />
+    <state width="1878" height="348" key="GridCell.Tab.0.right" timestamp="1595256973412">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="348" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1595256973412" />
+    <state width="1878" height="348" key="GridCell.Tab.1.bottom" timestamp="1595256974239">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="348" key="GridCell.Tab.1.bottom/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1595256974239" />
+    <state width="1878" height="348" key="GridCell.Tab.1.center" timestamp="1595256974237">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="348" key="GridCell.Tab.1.center/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1595256974237" />
+    <state width="1878" height="348" key="GridCell.Tab.1.left" timestamp="1595256974237">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="348" key="GridCell.Tab.1.left/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1595256974237" />
+    <state width="1878" height="348" key="GridCell.Tab.1.right" timestamp="1595256974238">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="348" key="GridCell.Tab.1.right/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1595256974238" />
+    <state x="2149" y="190" key="SettingsEditor" timestamp="1595252937605">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2149" y="190" key="SettingsEditor/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1595252937605" />
+    <state x="2267" y="205" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1595248846291">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2267" y="205" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1595248846291" />
+    <state x="2189" y="294" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1595253294575">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2189" y="294" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1595253294575" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint suspend="NONE" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/repeatedString/main.go</url>
+          <line>40</line>
+          <log-expression expression="result == 7" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <condition expression="s == &quot;gfcaaaecbg&quot;" />
+          <url>file://$PROJECT_DIR$/repeatedString/main.go</url>
+          <line>20</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
