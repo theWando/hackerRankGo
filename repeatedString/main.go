@@ -4,26 +4,21 @@ import (
 	"bufio"
 	"fmt"
 	"io"
-	"math"
 	"os"
 	"strconv"
 	"strings"
 )
 
+const A = "a"
+
 // Complete the repeatedString function below.
 func repeatedString(s string, n int64) int64 {
-	const A = "a"
-	if int64(len(s)) > n {
-		return int64(strings.Count(s[:n], A))
-	}
-	aCount := float64(strings.Count(s, A))
-	count := float64(n) / float64(len(s)) * aCount
-	return int64(math.RoundToEven(count))
+	length := int64(len(s))
+	return int64(strings.Count(s, A))*(n/length) + int64(strings.Count(s[:n%length], A))
 }
 
 func main() {
 	reader := bufio.NewReaderSize(os.Stdin, 1024*1024)
-
 	stdout, err := os.Create(os.Getenv("OUTPUT_PATH"))
 	checkError(err)
 

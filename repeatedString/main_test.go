@@ -28,6 +28,14 @@ func Test_repeatedString(t *testing.T) {
 			s: "gfcaaaecbg",
 			n: 547602,
 		}, want: 164280},
+		{name: "Test Case 18", args: args{
+			s: "beeaabc",
+			n: 711560125001,
+		}, want: 203302892858},
+		{name: "Test Case 9", args: args{
+			s: "epsxyyflvrrrxzvnoenvpegvuonodjoxfwdmcvwctmekpsnamchznsoxaklzjgrqruyzavshfbmuhdwwmpbkwcuomqhiyvuztwvq",
+			n: 549382313570,
+		}, want: 16481469408},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
