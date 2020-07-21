@@ -1,3 +1,3 @@
-module github.com/theWando/hackerRank/repeatedString
+module github.com/theWando/hackerRankGo/repeatedString
 
 go 1.14
