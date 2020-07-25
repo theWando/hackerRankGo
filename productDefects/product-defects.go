@@ -4,6 +4,7 @@ import (
 	"bufio"
 	"fmt"
 	"io"
+	"math"
 	"os"
 	"strconv"
 	"strings"
@@ -18,43 +19,27 @@ const DefectiveProduct int32 = 1
  * The function accepts 2D_INTEGER_ARRAY samples as parameter.
  */
 func largestArea(samples [][]int32) int32 {
-	prevTop, prevBottom, prevCount := 0, 0, -1
-	var response int32 = 1
-	for _, row := range samples {
-		top, bottom, count := findRange(row)
-		if (prevCount >= count || prevCount == -1) && top == prevTop {
-			response = int32(count)
+	length := len(samples)
+	dp := make([][]int32, length+1, length+1)
+	var maxSqLen int32 = 0
+	for i := 1; i <= length; i++ {
+		dp[i-1] = initialize(dp[i-1], length+1)
+		dp[i] = initialize(dp[i], length+1)
+		for j := 1; j <= length; j++ {
+			if samples[i-1][j-1] == DefectiveProduct {
+				dp[i][j] = int32(math.Min(math.Min(float64(dp[i][j-1]), float64(dp[i-1][j])), float64(dp[i-1][j-1]))) + 1
+				maxSqLen = int32(math.Max(float64(maxSqLen), float64(dp[i][j])))
+			}
 		}
-		if prevTop != top && prevBottom != bottom {
-			response = 1
-		}
-		prevTop = top
-		prevCount = count
-
 	}
-	return response
-
+	return maxSqLen
 }
 
-func findRange(row []int32) (top int, bottom int, count int) {
-	top = -1
-	bottom = -1
-
-	var prev int32 = -1
-	for i, item := range row {
-		if item == DefectiveProduct {
-			if prev == DefectiveProduct || prev == -1 {
-				count++
-				bottom = i
-			}
-			if top == -1 || prev != DefectiveProduct {
-				top = i
-			}
-		}
-		prev = item
+func initialize(arr []int32, length int) []int32 {
+	if arr == nil {
+		arr = make([]int32, length, length)
 	}
-
-	return top, bottom, count
+	return arr
 }
 
 func main() {
